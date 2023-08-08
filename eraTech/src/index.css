@@ -1,0 +1,8 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.namenav{
+  font-family: 'Gulzar', serif;
+  font-size: 20px;
+}
