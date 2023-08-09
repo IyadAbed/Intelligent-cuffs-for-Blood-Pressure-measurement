@@ -26,6 +26,7 @@ function Home() {
             '\n    .video-docker video {\n        top: 50%;\n        left: 50%;\n        transform: translate(-50%, -50%);\n    }\n\n    .video-docker::after {\n        content: "";\n        position: absolute;\n        width: 100%;\n        height: 100%;\n        top: 0;\n        left: 0;\n        background: rgba(0, 0, 0, 0.6);\n        z-index: 1;\n    }\n',
         }}
       />
+        <Service/>
 <section className="bg-gray-100">
   <div className="container mx-auto py-16 px-4 sm:px-6 lg:px-8">
     <div className="grid grid-cols-1 md:grid-cols-2 items-center gap-8">
@@ -50,7 +51,6 @@ function Home() {
     </div>
   </div>
 </section>
-<Service/>
     </>
   );
 }

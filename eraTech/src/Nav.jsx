@@ -7,10 +7,10 @@ const Nav = () => {
 
   // Replace javascript:void(0) path with your path
   const navigation = [
-    { title: "العملاء", path: "/about" },
-    { title: "الوظائف", path: "/contact" },
-    { title: "خطوط الإرشاد", path: "javascript:void(0)" },
-    { title: "شركاء", path: "javascript:void(0)" },
+    { title: " الصفحة الرئيسية", path: "/" },
+    { title: "من نحن", path: "/about" },
+    { title: "للتواصل", path: "/contact" },
+    // { title: "شركاء", path: "javascript:void(0)" },
   ];
 
   return (

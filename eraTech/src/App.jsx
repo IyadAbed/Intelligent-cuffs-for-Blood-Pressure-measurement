@@ -1,10 +1,10 @@
 import { BrowserRouter, Route, Routes } from "react-router-dom"
-import Home from "./home"
-import About from "./about"
-import Contact from "./contact"
 import Nav from "./Nav"
 import Footer from "./Footer"
 import Service from "./Service"
+import Home from "./Home"
+import About from "./About"
+import Contact from "./Contact"
 
 function App() {
   return (
